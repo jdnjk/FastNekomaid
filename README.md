@@ -14,7 +14,7 @@ A bukkit plugin that can manage your server through web pages.
 4. Modify the `hostname` to the address to connect to your MineCraft server.
 5. Execute `/nekomaid reload` command in the console to reload configuration.
 6. Execute `/nekomaid` or `/nm` command in the console.
-7. Open the url and manage your server!
+7. Open the url and manage your server! 
 
 ## Commands
 
