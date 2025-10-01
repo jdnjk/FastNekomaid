@@ -76,10 +76,7 @@ jobs:
 
       - name: Generate assets
         run: xvfb-run --auto-servernum npm run gen
-
-      - name: Set website version
-        run: version='${{ github.ref }}' && sed -i "s/[0-9]\{1,\}\.[0-9]\{1,\}\.[0-9]\{1,\}/${version:10}/" package.json
-
+        
       - name: Copy icons
         run: mkdir public && npm run copyIcons
 
