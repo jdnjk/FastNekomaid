@@ -66,7 +66,7 @@ import java.util.stream.Collectors;
 @SoftDependency("OpenInv")
 @SoftDependency("InvSeePlusPlus")
 @SoftDependency("PlugMan")
-@SoftDependency("ServerUtils")
+//@SoftDependency("ServerUtils")
 @SoftDependency("PlaceholderAPI")
 @SoftDependency("Multiverse-Core")
 public final class NekoMaid extends JavaPlugin implements Listener {
