@@ -35,11 +35,11 @@ repositories {
     }
     maven {
         name = 'placeholderapi'
-        url = 'https://repo.extendedclip.com/content/repositories/placeholderapi/'
+        url = 'https://repo.extendedclip.com/releases/'
     }
     maven {
         name = 'CodeMC'
-        url = 'https://repo.codemc.org/repository/maven-public/'
+        url = 'https://repo.codemc.io/repository/maven-public/'
     }
     maven {
         name = 'onarandombox'
@@ -58,7 +58,7 @@ dependencies {
     compileOnly 'me.clip:placeholderapi:2.11.2'
     compileOnly 'de.tr7zw:item-nbt-api-plugin:2.8.0'
     compileOnly 'com.rylinaux:PlugMan:2.2.9'
-    compileOnly("net.frankheijden.serverutils:ServerUtils:3.5.3")
+    //compileOnly("net.frankheijden.serverutils:ServerUtils:3.5.3")
     compileOnly 'com.github.oshi:oshi-core:6.3.1'
     compileOnly 'com.onarandombox.multiversecore:Multiverse-Core:4.3.2-SNAPSHOT'
     compileOnly ('com.github.MilkBowl:VaultAPI:1.7') {
