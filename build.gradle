@@ -29,10 +29,10 @@ repositories {
         name = 'PlugMan'
         url = 'https://raw.githubusercontent.com/TheBlackEntity/PlugMan/repository/'
     }
-    maven {
+    /*maven {
         name = 'ServerUtils'
         url = 'https://repo.fvdh.dev/releases'
-    }
+    }*/
     maven {
         name = 'placeholderapi'
         url = 'https://repo.extendedclip.com/releases/'
