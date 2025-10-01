@@ -35,7 +35,7 @@ repositories {
     }*/
     maven {
         name = 'placeholderapi'
-        url = 'https://repo.extendedclip.com/releases/'
+        url = 'https://repo.helpch.at/releases'
     }
     maven {
         name = 'CodeMC'
@@ -55,7 +55,7 @@ dependencies {
     compileOnly 'org.apache.logging.log4j:log4j-core:2.19.0'
     compileOnly 'com.github.Apisium:Uniporter:1.3.4-SNAPSHOT'
     compileOnly 'com.github.jikoo.OpenInv:openinvapi:2f36a4d4dc'
-    compileOnly 'me.clip:placeholderapi:2.11.2'
+    compileOnly 'me.clip:placeholderapi:2.11.6'
     compileOnly 'de.tr7zw:item-nbt-api-plugin:2.8.0'
     compileOnly 'com.rylinaux:PlugMan:2.2.9'
     //compileOnly("net.frankheijden.serverutils:ServerUtils:3.5.3")
